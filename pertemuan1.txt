@@ -1,0 +1,44 @@
+Web Application Framework
+    - Sebuah 'kerangka' yang didesain untuk mendukung pembangunan aplikasi web
+    - Menyediakan standar/cara untuk membangun aplikasi web
+    - Bertujuan untuk mengotomasi hal-hal umum yang biasanya dilakukan saat membangun aplikasi web
+    - Contohnya: database library, templating engine, session management, authentication, security, dll.
+
+Laravel
+    - Laravel is a web application framework with expressive, elegant syntax.
+    - Dibuat oleh Taylor Otwell
+    - Juni 2011
+    - Sebagai alternatif framework untuk CodeIgniter
+    - We believe development must be an enjoyable, creative experience to be truly fulfilling
+    - Laravel aims to make the development process a pleasing one for the developer without sacrificing functionality. Happy developers make the best code.
+    - MVC
+    - Templating engine
+    - Artisan console
+    - Eloquent ORM
+    - Authentication & authorization
+    - Testing
+    - Packaging system
+    - Multiple file system
+    - Task scheduling
+    - Websocket programming
+    - awwwards.com/websites/laravel
+
+    Pre-requisite
+        - PHP dasar
+        - Object Oriented PHP
+        - Konsep MVC
+
+    Requirement
+        - PHP 7.4/8
+        - MySQL
+        - Composer 2
+        - SequelPro/MySQL Workbench
+        - Terminal/CMD/PowerShell/Git Bash
+        - Code Editor: Visual Studio Code
+        - Extensions:
+            - PHP Intelephense
+            - Laravel Artisan
+            - Laravel Snippets
+            - Laravel Blade Snippets
+            - Laravel Blade Spacer
+            - Laravel GoTo View
