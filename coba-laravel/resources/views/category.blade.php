@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('container')
-    <h1>Halaman Blog Posts</h1>
+    <h1>Post Category: {{ $category }}</h1>
     @foreach ($posts as $post)
     <article class="mb-3">
         <h2>
