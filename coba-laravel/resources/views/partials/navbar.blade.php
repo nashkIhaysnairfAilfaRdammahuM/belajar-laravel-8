@@ -13,7 +13,7 @@
                     <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" aria-current="{{ ($title === "About") ? 'page' : '' }}" href="/about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ ($title === "Posts") ? 'active' : '' }}" aria-current="{{ ($title === "Posts") ? 'page' : '' }}" href="/posts">Blog</a>
+                    <a class="nav-link {{ ($title === "All Posts") ? 'active' : '' }}" aria-current="{{ ($title === "All Posts") ? 'page' : '' }}" href="/posts">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ ($title === "Post Categories") ? 'active' : '' }}" aria-current="{{ ($title === "Post Categories") ? 'page' : '' }}" href="/categories">Categories</a>
