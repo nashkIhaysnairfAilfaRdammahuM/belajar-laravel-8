@@ -7,16 +7,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" aria-current="{{ ($title === "Home") ? 'page' : '' }}" href="/">Home</a>
+                    <a class="nav-link {{ ($active === "home") ? 'active' : '' }}" aria-current="{{ ($active === "home") ? 'page' : '' }}" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" aria-current="{{ ($title === "About") ? 'page' : '' }}" href="/about">About</a>
+                    <a class="nav-link {{ ($active === "about") ? 'active' : '' }}" aria-current="{{ ($active === "about") ? 'page' : '' }}" href="/about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ ($title === "All Posts") ? 'active' : '' }}" aria-current="{{ ($title === "All Posts") ? 'page' : '' }}" href="/posts">Blog</a>
+                    <a class="nav-link {{ ($active === "posts") ? 'active' : '' }}" aria-current="{{ ($active === "All Posts") ? 'page' : '' }}" href="/posts">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ ($title === "Post Categories") ? 'active' : '' }}" aria-current="{{ ($title === "Post Categories") ? 'page' : '' }}" href="/categories">Categories</a>
+                    <a class="nav-link {{ ($active === "categories") ? 'active' : '' }}" aria-current="{{ ($active === "Post Categories") ? 'page' : '' }}" href="/categories">Categories</a>
                 </li>
             </ul>
         </div>
